@@ -1,0 +1,241 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000;
+}
+
+.name {
+    color: #d62d72;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #000;
+}
+
+.presentation img {
+    border-radius:5%
+        border-radius: 50%;
+        width: 300px; 
+}
+
+.skills-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skills-section h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #E91E63;
+    margin: 10px auto;
+}
+
+.skills {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(to right, #E91E63, #000);
+    border-radius: 10px;
+}
+
+.voir-plus-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E91E63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#realisations {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.filter-buttons {
+    margin-bottom: 30px;
+}
+
+.filter-buttons button {
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.filter-buttons button.active {
+    background-color: #333;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Filtres */
+[data-category] {
+    display: none;
+}
+
+[data-category="all"], .filter.active[data-category] {
+    display: block;
+}
+
+
+
+.bg-pink {
+    background-color: #f7c8d8;
+}
+
+.outils img {
+    width: 60px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #f7c8d8;
+    color: #000;
+}
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.underline span {
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+    margin: 0 5px;
+}
+
+.underline span:nth-child(2) {
+    background-color: #e63946;
+    width: 60px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-item {
+    width: 48%;
+}
+
+.form-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fde8e8;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    background-color: #e63946;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #ddd;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #555;
+    font-size: 14px;
+}
